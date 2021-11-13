@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #141414;
+  position: fixed;
+}
+
+header .logo {
+  width: 100%;
+  max-width: 92.5px;
+}
+
+.billboard {
+  width: 100%;
+  padding-top: 300px;
+  padding-bottom: 200px;
+  background: brown;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/nandos.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/nandos.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.billboard .view {
+  padding-left: 12px;
+  padding-right: 12px;
+  background: brown;
+}
+
+.description {
+  color: #e5e5e5;
+  padding-top: 50px;
+}
+/*# sourceMappingURL=nandos.css.map */

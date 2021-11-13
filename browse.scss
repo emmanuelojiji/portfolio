@@ -3,6 +3,7 @@ header {
   padding-top: 25px;
   padding-bottom: 25px;
   background: #141414;
+  position: fixed;
 
   .logo {
     width: 100%;
@@ -13,6 +14,7 @@ header {
 .categories-container {
   height: 1000px;
   background: #141414;
+  padding-top: 100px;
 
   .category-row {
     margin-bottom: 30px;
