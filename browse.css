@@ -19,6 +19,18 @@ header .logo {
   margin-bottom: 30px;
 }
 
+.categories-container .image-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+}
+
+.categories-container .image-row::-webkit-scrollbar {
+  display: none;
+}
+
 .categories-container h2 {
   color: #e5e5e5;
   margin-bottom: 10px;
@@ -27,7 +39,7 @@ header .logo {
 .categories-container img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 230px;
+  min-width: 230px;
   height: 130px;
 }
 /*# sourceMappingURL=browse.css.map */

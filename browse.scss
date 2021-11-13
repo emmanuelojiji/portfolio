@@ -2,7 +2,7 @@ header {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
-  background:#141414;
+  background: #141414;
 
   .logo {
     width: 100%;
@@ -14,18 +14,29 @@ header {
   height: 1000px;
   background: #141414;
 
-  .category-row{
+  .category-row {
     margin-bottom: 30px;
   }
 
-  h2{
+  .image-row {
+    display: flex;
+    gap: 20px;
+
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  h2 {
     color: #e5e5e5;
     margin-bottom: 10px;
   }
 
   img {
     object-fit: cover;
-    width: 230px;
+    min-width: 230px;
     height: 130px;
   }
 }
