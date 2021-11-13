@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #141414;
+}
+
+header .logo {
+  width: 100%;
+  max-width: 92.5px;
+}
+
+.categories-container {
+  height: 1000px;
+  background: #141414;
+}
+
+.categories-container .category-row {
+  margin-bottom: 30px;
+}
+
+.categories-container h2 {
+  color: #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.categories-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 230px;
+  height: 130px;
+}
+/*# sourceMappingURL=browse.css.map */

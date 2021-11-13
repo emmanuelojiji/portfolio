@@ -1,0 +1,93 @@
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header .logo {
+  width: 100%;
+  max-width: 92.5px;
+}
+
+main {
+  height: 100vh;
+  background: #141414;
+}
+
+main .main-wrap {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .whos-watching {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+main .profile-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+main .profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .profile-container .avatar {
+  border: 4px solid transparent;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+main .profile-container:hover .avatar {
+  border: solid 4px white;
+}
+
+main .profile-container:hover .profile-name {
+  color: white;
+}
+
+main .profile-container .profile-name {
+  color: grey;
+  margin-top: 10px;
+}
+
+main .manage-profiles {
+  color: grey;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: solid 1px grey;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=index.css.map */
